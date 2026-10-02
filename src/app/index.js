@@ -17,7 +17,7 @@ export default function Inicio() {
 
       <View style={styles.cartao}>
         <Text style={styles.cartaoTitulo}>Contador</Text>
-        <Text style={styles.detalhe}>Aumente ou diminua o número.</Text>
+        <Text style={styles.detalhe}>Aumentar ou diminuir o número</Text>
         <Link href="/contador" style={styles.link}>
           Abrir contador →
         </Link>
@@ -30,6 +30,15 @@ export default function Inicio() {
           Abrir lista de músicas →
         </Link>
       </View>
+
+      <View style={styles.cartao}>
+  <Text style={styles.cartaoTitulo}>Lista Bordel</Text>
+  <Text style={styles.detalhe}>Lista com nome e cor</Text>
+  <Link href="/bordeis" style={styles.link}>
+    Abrir →
+  </Link>
+</View>
+
     </SafeAreaView>
   );
 }
